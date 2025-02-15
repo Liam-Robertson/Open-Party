@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Safety Standards for CSAE Prevention</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f9f9f9;
+      color: #333;
+      margin: 0;
+      padding: 20px;
+      line-height: 1.6;
+    }
+    header {
+      background-color: #005a9e;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+    section {
+      background: #fff;
+      padding: 20px;
+      margin-top: 20px;
+      border-radius: 8px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+    ul {
+      margin-left: 20px;
+    }
+    a {
+      color: #005a9e;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    footer {
+      text-align: center;
+      margin-top: 40px;
+      font-size: 0.9em;
+      color: #777;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Safety Standards for CSAE Prevention</h1>
+  </header>
+  <section>
+    <p>Our app is committed to creating a safe environment for all users, with a special focus on protecting children. We adhere to internationally recognized standards aimed at preventing Child Sexual Abuse and Exploitation (CSAE). Our safety measures include:</p>
+    <ul>
+      <li>Strict content guidelines and moderation policies</li>
+      <li>Compliance with relevant legal and regulatory requirements</li>
+      <li>Collaboration with trusted organizations dedicated to child safety</li>
+      <li>Regular review and updates to our safety protocols</li>
+    </ul>
+    <p>For more detailed external safety standards on CSAE prevention, please visit the International Centre for Missing & Exploited Children (ICMEC):</p>
+    <p>
+      <a href="https://www.icmec.org/" target="_blank" rel="noopener">
+        https://www.icmec.org/
+      </a>
+    </p>
+    <p>We are dedicated to continuously improving our safety practices to ensure that our community remains secure and supportive for all users.</p>
+  </section>
+  <footer>
+    <p>&copy; 2025 Your App Name. All rights reserved.</p>
+  </footer>
+</body>
+</html>
