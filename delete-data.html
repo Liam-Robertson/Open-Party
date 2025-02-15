@@ -3,71 +3,56 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Request Data Deletion - Open Party</title>
+  <title>Data Deletion Request - Open Party</title>
   <style>
     body {
       font-family: Arial, sans-serif;
-      background-color: #f9f9f9;
-      margin: 2em;
+      background-color: #f5f5f5;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
       color: #333;
     }
-    h1 {
-      color: #222;
-    }
-    form {
-      max-width: 600px;
+    .container {
       background: #fff;
-      padding: 1.5em;
       border: 1px solid #ddd;
-      border-radius: 5px;
-      margin-top: 1em;
+      border-radius: 8px;
+      padding: 2em;
+      max-width: 600px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+      text-align: center;
     }
-    label {
-      display: block;
-      margin-top: 1em;
-      font-weight: bold;
+    h1 {
+      margin-bottom: 0.5em;
     }
-    input, textarea {
-      width: 100%;
-      padding: 0.5em;
-      margin-top: 0.5em;
-      border: 1px solid #ccc;
-      border-radius: 3px;
-      box-sizing: border-box;
+    p {
+      font-size: 1.1em;
+      line-height: 1.5;
     }
-    button {
-      margin-top: 1em;
-      padding: 0.7em 1.5em;
-      background-color: #007bff;
-      color: #fff;
-      border: none;
-      border-radius: 3px;
-      cursor: pointer;
+    a {
+      color: #007BFF;
+      text-decoration: none;
     }
-    button:hover {
-      background-color: #0056b3;
-    }
-    .instructions {
-      margin-bottom: 1em;
+    a:hover {
+      text-decoration: underline;
     }
   </style>
 </head>
 <body>
-  <h1>Request Data Deletion</h1>
-  <p class="instructions">
-    If you would like to request the deletion of your account and all associated data from the Open Party app, please fill out the form below. Your account information, location data, and any other data associated with your account will be permanently deleted, except for data required to comply with legal obligations.
-  </p>
-  <form action="mailto:support@openparty.app" method="post" enctype="text/plain">
-    <label for="email">Email Address:</label>
-    <input type="email" id="email" name="email" required>
-
-    <label for="username">Account Username:</label>
-    <input type="text" id="username" name="username" required>
-
-    <label for="message">Additional Information (optional):</label>
-    <textarea id="message" name="message" rows="5" placeholder="Provide any additional details regarding your request."></textarea>
-
-    <button type="submit">Submit Request</button>
-  </form>
+  <div class="container">
+    <h1>Data Deletion Request</h1>
+    <p>
+      If you would like to have your account and all associated data deleted from Open Party, please contact us at:
+    </p>
+    <p>
+      <strong><a href="mailto:LiamOpenParty@gmail.com">LiamOpenParty@gmail.com</a></strong>
+    </p>
+    <p>
+      Please include your account details and a brief message with your deletion request.
+    </p>
+  </div>
 </body>
 </html>
